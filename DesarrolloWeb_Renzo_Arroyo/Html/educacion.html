@@ -23,7 +23,69 @@
       <a href="#TopEducacion">Educacion</a> |
       <a href="experiencia.html">Experiencia</a>
     </nav>
-    <section></section>
+    <br>
+    <section name="Estudios">
+      <h2>Educación</h2>
+      <table border="1px" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culminó</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2016</td>
+            <td>Universidad Peruana de Ciencias Aplicadas</td>
+            <td>Lima, Perú</td>
+            <td>NO</td>
+          </tr>
+          <tr>
+            <td>2005</td>
+            <td>Colegio San Pablo</td>
+            <td>Lima, Perú</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>Instituto Cultural Peruano Británico</td>
+            <td>Lima, Perú</td>
+            <td>SI</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br>
+    <section name="FormEstudios">
+      <h2>Agregar Estudios: </h2>
+      <br>
+      <form autocomplete="on" name="AddEstudios">
+        <label for="slctAño">Año: </label>
+        <select id="slctAño">
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select> <br><br>
+        <label for="tbxInstitucion">Institución: </label>
+        <input type="text"  id="tbxInstitucion" placeholder="Ej: UPC" required> <br><br>
+        <label for="txtLugar">Lugar: </label> <br>
+        <textarea id="txtLugar" rows="8" cols="60" required></textarea> <br><br>
+        <label for="slctCulminó">Culminó: </label>
+        <select id="slctCulminó">
+          <option>SI</option>
+          <option>NO</option>
+        </select> <br><br>
+        <input type="submit" name="" value="Enviar">
+      </form>
+    </section>
     <footer>
       <h3>Contacto:</h3>
       <p>
